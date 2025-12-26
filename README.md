@@ -1,0 +1,7 @@
+This project is a personal portfolio website developed using React JS. The main objective of this assignment is to understand and implement React’s component-based architecture while focusing on styling with pure CSS. All the styles in this project are written using separate CSS files, and no CSS frameworks such as Tailwind CSS or Bootstrap have been used.
+
+The entire user interface is designed using plain CSS to ensure a clear understanding of core styling concepts. Each React component has its own dedicated CSS file, which helps in maintaining clean code structure and better readability. This approach also makes the project easier to manage and scale.
+
+Responsiveness is achieved using CSS media queries. The layout adapts smoothly across different screen sizes including mobile, tablet, and desktop devices. Media queries are used to adjust layouts, font sizes, and alignments to provide a consistent user experience on all devices.
+
+This portfolio project demonstrates the practical use of React JS along with fundamental web technologies such as HTML, CSS, and JavaScript. It highlights the ability to build responsive, well-structured, and framework-free user interfaces using pure CSS and React components.

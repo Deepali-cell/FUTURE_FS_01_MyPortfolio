@@ -1,0 +1,151 @@
+#heading {
+  background: linear-gradient(to right, #0052D4, #65C7F7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2em;
+  padding: 20px 0;
+}
+
+.part1 {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+.recent_cases {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+/* Card */
+.case_card {
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ background: linear-gradient(135deg, #6c778a, #313236);
+  border-radius: 12px;
+  overflow: hidden;
+  color: white;
+  padding: 20px;
+}
+
+/* Content */
+.case_content {
+  flex: 1;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.title_img {
+  height: 100px;
+  width:400px;
+}
+
+.case_content p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* Tech Image */
+.tech_img {
+  width: 280px;
+}
+
+/* Button */
+.case_btn {
+  width: fit-content;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* Right Image */
+.case_img img {
+  width: 350px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* 🔥 RESPONSIVE */
+@media (max-width: 900px) {
+  .case_card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .case_content {
+    padding-right: 0;
+    align-items: center;
+  }
+
+  .case_img img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .tech_img {
+    width: 100%;
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  #heading {
+    font-size: 1.6em;
+  }
+
+  .title_img {
+  height: 100px;
+  width:200px;
+}
+  .part1 p {
+    font-size: 0.9rem;
+    padding: 0 10px;
+  }
+
+  .recent_cases {
+    padding: 10px;
+  }
+
+  .case_card {
+    flex-direction: column;
+    padding: 15px;
+    gap: 20px;
+  }
+
+  .case_content {
+    padding: 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  .case_content p {
+    font-size: 0.85rem;
+  }
+
+  .tech_img {
+    width: 100%;
+    max-width: 220px;
+  }
+
+  .case_img img {
+    width: 100%;
+    max-width: 260px;
+  }
+
+  .case_btn {
+    padding: 8px 18px;
+    font-size: 0.85rem;
+  }
+}
