@@ -1,0 +1,160 @@
+/* ===============================
+   Heading
+================================ */
+#heading {
+  background: linear-gradient(to right, #0052D4, #65C7F7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2em;
+  padding: 20px 0;
+}
+
+/* ===============================
+   Section Intro
+================================ */
+.part1 {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.part1 p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  opacity: 0.95;
+}
+
+/* ===============================
+   Projects Grid
+================================ */
+.recent_cases {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 40px 60px;
+  justify-items: center;
+}
+
+/* ===============================
+   Project Card
+================================ */
+.case_card {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column; /* vertical card */
+  align-items: center;
+  gap: 20px;
+  background: linear-gradient(135deg, #6c778a, #313236);
+  border-radius: 16px;
+  padding: 24px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.case_card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* ===============================
+   Image
+================================ */
+.case_img img {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+/* ===============================
+   Content
+================================ */
+.case_content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.title_heading {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.case_content p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+
+/* ===============================
+   Buttons
+================================ */
+.project_btns {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.case_btn {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: opacity 0.3s ease;
+}
+
+.case_btn:hover {
+  opacity: 0.85;
+}
+
+.case_btn.secondary {
+  background: linear-gradient(to right, #65C7F7, #0052D4);
+}
+
+/* ===============================
+   RESPONSIVE
+================================ */
+@media (max-width: 900px) {
+  .recent_cases {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    padding: 30px 40px;
+    gap: 30px;
+  }
+
+  .case_card {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  #heading {
+    font-size: 1.6em;
+  }
+
+  .recent_cases {
+    grid-template-columns: 1fr;
+    padding: 20px 20px;
+    gap: 25px;
+  }
+
+  .case_card {
+    padding: 20px;
+  }
+
+  .case_content p {
+    font-size: 0.85rem;
+  }
+
+  .case_btn {
+    font-size: 0.85rem;
+    padding: 8px 18px;
+  }
+}

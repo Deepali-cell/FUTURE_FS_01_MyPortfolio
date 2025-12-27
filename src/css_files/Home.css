@@ -28,16 +28,9 @@ text-align: center;
   word-spacing: 1px;
 
 }
-.user_detail1 span{
- background: linear-gradient(to right, #0052D4, #65C7F7);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
 
 .user_detail2 {
   font-weight: 100; 
-  /* word-spacing: 6px; */
 }
 
 /* btn */
@@ -74,11 +67,11 @@ text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 40px;
 }
 #home_part2 img{
-  height: 90px;
-  width: 200px;
+  height: 120px;
+  width: 150px;
 }
 
 @media (max-width: 767px) {

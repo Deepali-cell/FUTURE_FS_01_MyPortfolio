@@ -7,8 +7,8 @@ const Education = () => {
       <div className="part1">
         <h2 id="heading">Education</h2>
         <p>
-          I am a product-oriented Software Engineer with a business mindset from
-          bringing the latest tech to launching successful startups!
+          My academic journey has helped me build a strong foundation in
+          computer applications and problem-solving skills.
         </p>
       </div>
 
@@ -17,17 +17,13 @@ const Education = () => {
           <div className="education_card" key={index}>
             <div className="edu_header">
               <img src={e.img} alt={e.name} />
-
               <div>
                 <h2>{e.name}</h2>
                 <h4>{e.cource}</h4>
                 <h5>{e.date}</h5>
               </div>
             </div>
-
             <p className="edu_desc">{e.description}</p>
-
-            <button className="edu_btn">Learn More</button>
           </div>
         ))}
       </div>

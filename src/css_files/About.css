@@ -2,8 +2,8 @@
 #about{
   display: flex;
   gap: 20px;
-  justify-content:start ;
-  align-items:center;
+  justify-content:center ;
+  align-items:center; 
   padding: 80px 50px;
 }
 #about_part1 img{

@@ -1,26 +1,18 @@
 export const educationData = [
   {
-    img: "/education/education1.png",
-    name: "Whitworth University",
-    cource: "Bachelor of Science - BS, Computer Science",
-    date: "Sep 2022 - May 2026",
+    img: "/education/university.png", // university logo / icon
+    name: "Chandigarh University",
+    cource: "BCA (Bachelor of Computer Applications) - 3rd Year",
+    date: "July 2023 - July 2026",
     description:
-      "Computer science at Whitworth is a robust and innovative program in which faculty and students work collaboratively. We first learn basic computational skills through practical computer programming problems and then how to apply those skills to solve nearly any imaginable problem. You will have ample opportunities to put these skills into practice through hands-on experiences that will give you an advantage in graduate school or in the job market.",
+      "Pursuing BCA with a focus on Full-Stack Web Development and MERN Stack. Hands-on experience in building end-to-end applications, improving problem-solving skills, and exploring modern web technologies.",
   },
   {
-    img: "/education/education2.png",
-    name: "Inha University",
-    cource: "Bachelor of Science - BS, Computer Science",
-    date: "Sep 2020 - May 2022",
+    img: "/education/school.jpg", // school logo / icon
+    name: "K.L. Arya DAV Public School, Hisar",
+    cource: "Senior Secondary (Nursery - 12th)",
+    date: "Completed 2023",
     description:
-      "IUT offer excellent programs with strong practical and theoretical backgrounds essential for students to apply their knowledge to real-world problems. The CSE program consists of courses with theories and experiments to train top-notch domain experts to be ready to face the challenges of a fast developing world.",
-  },
-  {
-    img: "/education/education3.png",
-    name: "Academic Lyceum",
-    cource: "HIght School Diploma -- Database Manager.",
-    date: "Sep 2018 - Jun 2020",
-    description:
-      "The Academic Lyceum of Westminster International University in Tashkent was established in 2008 by the Resolution of the Cabinet of Ministers of the Republic of Uzbekistan No. 270 dated December 9, 2008.",
+      "Completed schooling with strong foundation in Science and Mathematics. Developed analytical thinking, teamwork, and basic programming knowledge through co-curricular activities.",
   },
 ];

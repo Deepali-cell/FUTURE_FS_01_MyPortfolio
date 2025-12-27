@@ -20,8 +20,12 @@ const Skills = () => {
 
             <div className="skill_content">
               <h1>{s.name}</h1>
-              <h4>{s.skills}</h4>
-              <button className="skill_btn">See Projects</button>
+
+              <ul>
+                {s.skills.split(",").map((skill, i) => (
+                  <li key={i}>{skill.trim()}</li>
+                ))}
+              </ul>
             </div>
           </div>
         ))}

@@ -1,17 +1,35 @@
 export const skillsData = [
   {
-    img: "/skills/skill1.png",
-    name: "Programming Languages",
-    skills: "Java, Python, C++, JavaScript, TypeScript",
+    img: "/skills/frontend.jpg",
+    name: "Frontend",
+    skills:
+      "HTML , CSS , JS , React JS , Axios / Fetch API , UI libraries (Tailwind / MUI / Bootstrap) , Basic performance optimization",
   },
   {
-    img: "/skills/skill2.png",
-    name: "Web Development",
-    skills: "HTML5, CSS3, React.js, Angular, Node.js, Express.js",
+    img: "/skills/backend.jpg",
+    name: "Backend",
+    skills:
+      "Node.js, Express.js , Authentication & Authorization , API Design , File upload(cloudinary) , Role-Based Access , Error handling & validation",
   },
   {
-    img: "/skills/skill3.png",
-    name: "Mobile Development",
-    skills: "Flutter, React Native, Kotlin (if applicable)",
+    img: "/skills/database.jpg",
+    name: "Database",
+    skills: "MongoDb(mongoose) , PostrageSql(prisma)",
+  },
+  {
+    img: "/skills/tools.jpg",
+    name: "Tools",
+    skills:
+      "Git & GitHub , VS Code , Postman , NPM , Environment variables (.env)",
+  },
+  {
+    img: "/skills/deployment.jpg",
+    name: "Deployment Platform",
+    skills: "Vercel , Render",
+  },
+  {
+    img: "/skills/programing.png",
+    name: "Programming Language",
+    skills: "C , C++ , Js , Ts(Basic)",
   },
 ];

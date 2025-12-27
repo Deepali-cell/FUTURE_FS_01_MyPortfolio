@@ -17,14 +17,8 @@ const Navbar = () => {
           <a href="#about">
             <li>About Me</li>
           </a>
-          <a href="#recentcase">
-            <li>Recent-Cases</li>
-          </a>
-          <a href="#testimonial">
-            <li>Testimonials</li>
-          </a>
-          <a href="#experience">
-            <li>Experience</li>
+          <a href="#projects">
+            <li>Projects</li>
           </a>
           <a href="#education">
             <li>Education</li>
@@ -50,14 +44,8 @@ const Navbar = () => {
             <a href="#about">
               <li onClick={() => setOpen(false)}>About Me</li>
             </a>
-            <a href="#recentcase">
-              <li onClick={() => setOpen(false)}>Recent-Cases</li>
-            </a>
-            <a href="#testimonial">
-              <li onClick={() => setOpen(false)}>Testimonials</li>
-            </a>
-            <a href="#experience">
-              <li onClick={() => setOpen(false)}>Experience</li>
+            <a href="#projects">
+              <li onClick={() => setOpen(false)}>Projects</li>
             </a>
             <a href="#education">
               <li onClick={() => setOpen(false)}>Education</li>

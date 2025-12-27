@@ -7,31 +7,38 @@ const Home = () => {
         <div id="home_part1">
           <div id="part1_outer">
             <h3>HI, MY NAME IS</h3>
-            <h1 class="user_name">Mukhammadyusuf</h1>
-            <h1 class="user_profession">I am Software Engineer</h1>
-            <p class="user_detail1">
-              4+ years of making the job done in the{" "}
-              <span>
-                Tech Industry <span>!</span>
-              </span>
+
+            <h1 className="user_name">Deepali</h1>
+
+            <h1 className="user_profession">Aspiring Software Developer</h1>
+
+            <p className="user_detail1">
+              MERN Stack Developer | BCA Final Year Student
             </p>
-            <p class="user_detail2">
-              I am product-oriented Software Enginner with a bussiness mindset
-              <br /> from bringing the latest tech to launching successfully
-              startups!
+
+            <p className="user_detail2">
+              Passionate about building end-to-end full-stack web applications
+              <br />
+              while continuously learning modern technologies.
             </p>
           </div>
+
           <div>
-            <button id="start_btn">🚀Let's Get Started!</button>
+            <a href="#projects">
+              <button id="start_btn">🚀 View My Projects</button>
+            </a>
           </div>
         </div>
+
         <div id="home_part2">
-          <img src="/home/img1.png" alt="company_name" />
-          <img src="/home/img2.png" alt="company_name" />
-          <img src="/home/img3.png" alt="company_name" />
-          <img src="/home/img4.png" alt="company_name" />
-          <img src="/home/img5.png" alt="company_name" />
-          <img src="/home/img6.png" alt="company_name" />
+          <img src="/home/tech1.png" alt="tech-logo" />
+          <img src="/home/tech2.png" alt="tech-logo" />
+          <img src="/home/tech3.png" alt="tech-logo" />
+          <img src="/home/tech4.png" alt="tech-logo" />
+          <img src="/home/tech5.png" alt="tech-logo" />
+          {/* <img src="/home/tech6.png" alt="tech-logo" /> */}
+          <img src="/home/tech7.png" alt="tech-logo" />
+          <img src="/home/tech8.png" alt="tech-logo" />
         </div>
       </div>
     </>

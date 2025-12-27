@@ -1,9 +1,9 @@
-/* Wrapper */
 #contact {
   padding: 60px 20px;
-  max-width: 1100px;
+  max-width: 800px;
   margin: auto;
   color: #fff;
+  text-align: center;
 }
 
 /* Heading */
@@ -15,91 +15,56 @@
   padding: 20px 0;
 }
 
-/* Intro */
-.part1 {
-  text-align: center;
-  max-width: 800px;
-  margin: 0 auto 50px;
-}
-
 .part1 p {
   font-size: 0.95rem;
   line-height: 1.6;
   opacity: 0.85;
+  margin-bottom: 40px;
 }
 
-/* Form */
-#contact form {
-  max-width: 600px;
-  margin: auto;
-  background: #111;
-  padding: 30px;
-  border-radius: 14px;
+/* Contact Info */
+.contact_info h3 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.social_links {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
 }
 
-/* Field */
-#contact form div {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
+.social_links a {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-#contact label {
-  font-size: 0.85rem;
+.social_links a:hover {
+  transform: translateY(-3px);
   opacity: 0.85;
 }
 
-/* Inputs */
-#contact input,
-#contact textarea {
-  background: #0d0d0d;
-  border: 1px solid #222;
-  padding: 10px 14px;
-  border-radius: 8px;
-  color: #fff;
-  font-size: 0.9rem;
-  outline: none;
-}
-
-#contact textarea {
-  resize: none;
-  min-height: 120px;
-}
-
-/* Focus */
-#contact input:focus,
-#contact textarea:focus {
-  border-color: #00c6ff;
-}
-
-/* Button */
-#contact button {
-  margin-top: 10px;
-  align-self: flex-start;
-  background: linear-gradient(to right, #00c6ff, #0072ff);
-  color: white;
-  border: none;
-  padding: 10px 26px;
-  border-radius: 20px;
-  cursor: pointer;
-  font-size: 0.9rem;
-}
-
-/* 🔥 Mobile Responsive */
-@media (max-width: 768px) {
-
+/* Mobile Responsive */
+@media (max-width: 600px) {
   #heading {
     font-size: 1.6em;
   }
 
-  #contact form {
-    padding: 20px;
+  .social_links {
+    flex-direction: column;
+    gap: 15px;
   }
 
-  #contact button {
-    align-self: center;
+  .social_links a {
+    width: 70%;
+    margin: auto;
+    text-align: center;
   }
 }
