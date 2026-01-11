@@ -1,5 +1,12 @@
 export const projects = [
   {
+     title: "Streaming Platform",
+    description: "Role-Based Access , Proper authentication with protected routes , used cloudinary for storing videos.",
+    github: "https://github.com/Deepali-cell/streamingVideoPlatform",
+    demo: "https://streamingvideoplatformfrontend.onrender.com/",
+    image: "/projects/streaming.jpg",
+  }, 
+  {
     title: "Doctor Appointment Website",
     description: "Admin panel, doctors, appointments. Real-time updates .",
     github: "https://github.com/Deepali-cell/prescripto_web/tree/main",
