@@ -6,6 +6,13 @@ export const projects = [
     demo: "https://streamingvideoplatformfrontend.onrender.com/",
     image: "/projects/streaming.jpg",
   }, 
+    {
+     title: "Task Manager",
+    description: "A simple and efficient task manager web application that helps users create, manage, and track their daily tasks.",
+    github: "https://github.com/Deepali-cell/task_manager",
+    demo: "https://task-manager-umber-six.vercel.app/",
+    image: "/projects/task_management.png",
+  }, 
   {
     title: "Doctor Appointment Website",
     description: "Admin panel, doctors, appointments. Real-time updates .",
