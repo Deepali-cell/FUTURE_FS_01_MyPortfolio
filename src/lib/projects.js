@@ -20,13 +20,13 @@ export const projects = [
     demo: "https://prescripto-web-frontend.onrender.com",
     image: "/projects/doctor.jpg",
   },
-  {
-    title: "Real-Time Chat Website",
-    description: "Chat with real-time messaging functionality.",
-    github: "https://github.com/Deepali-cell/chat-web/tree/main",
-    demo: "https://chat-web-frontend-sc0b.onrender.com",
-    image: "/projects/chat.jpg",
-  },
+  // {
+  //   title: "Real-Time Chat Website",
+  //   description: "Chat with real-time messaging functionality.",
+  //   github: "https://github.com/Deepali-cell/chat-web/tree/main",
+  //   demo: "https://chat-web-frontend-sc0b.onrender.com",
+  //   image: "/projects/chat.jpg",
+  // },
   {
     title: "E-commerce Website",
     description: "Simple online store with product management and checkout.",
