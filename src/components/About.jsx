@@ -3,7 +3,7 @@ import "../css_files/About.css";
 const About = () => {
   const downloadResume = () => {
     const link = document.createElement("a");
-    link.href = "/resume/DeepaliResume.pdf";
+    link.href = "/resume/DeepaliResume(2).pdf";
     link.download = "Deepali_Resume.pdf";
     document.body.appendChild(link);
     link.click();
