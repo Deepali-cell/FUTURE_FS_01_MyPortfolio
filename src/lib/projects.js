@@ -28,13 +28,13 @@ export const projects = [
   //   demo: "https://chat-web-frontend-sc0b.onrender.com",
   //   image: "/projects/chat.jpg",
   // },
-  {
-     title: "Streaming Platform",
-    description: "Role-Based Access , Proper authentication with protected routes , used cloudinary for storing videos.",
-    github: "https://github.com/Deepali-cell/streamingVideoPlatform",
-    demo: "https://streamingvideoplatformfrontend.onrender.com/",
-    image: "/projects/streaming.jpg",
-  }, 
+  // {
+  //    title: "Streaming Platform",
+  //   description: "Role-Based Access , Proper authentication with protected routes , used cloudinary for storing videos.",
+  //   github: "https://github.com/Deepali-cell/streamingVideoPlatform",
+  //   demo: "https://streamingvideoplatformfrontend.onrender.com/",
+  //   image: "/projects/streaming.jpg",
+  // }, 
   {
     title: "E-commerce Website",
     description: "Simple online store with product management and checkout.",
